@@ -1,19 +1,19 @@
-# Project Overview
+# Projektüberblick
 
-## Description
+## Beschreibung
 
 {{DB_report_query.product.description}}
 
 \pagebreak
-# Executive Summary
+# Managementzusammenfassung
 
 {{DB_report_query.executive_summary}}
 
-## Summary of Findings Identified
+## Zusammenfassung der identifizierten Schwachstellen
 
-![Executive Summary]({{report_executive_summary_image}})
+![Zusammenfassung]({{report_executive_summary_image}})
 
-![Breakdown by Categories]({{report_executive_categories_image}})
+![Aufteilung nach Kategorien]({{report_executive_categories_image}})
 
 {{pdf_finding_summary}}
 
@@ -28,17 +28,17 @@
 {{DB_report_query.outofscope}}
 
 \pagebreak
-## Methodology
+## Methodik
 
 {{DB_report_query.methodology}}
 
 \pagebreak
-## Recommendations
+## Empfehlungen
 
 {{DB_report_query.recommendation}}
 
 \pagebreak
-# Findings and Risk Analysis
+# Findings
 
 {{template_findings}}
 

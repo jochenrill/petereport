@@ -899,13 +899,13 @@ $else$
 {
   \setstretch{1.4}
   \vfill
-  \noindent {\huge \textbf{\textsf{Product: $product$}}}
-  \newline\newline
-  \noindent {\huge \textbf{\textsf{Report: $title$}}}
-  $if(subtitle)$
-  \vskip 1em
-  {\Large \textsf{$subtitle$}}
-  $endif$
+  %\noindent {\huge \textbf{\textsf{Product: $product$}}}
+  %\newline\newline
+  \noindent {\huge \textbf{\textsf{$title$}}}
+  %$if(subtitle)$
+  %\vskip 1em
+  %{\Large \textsf{$subtitle$}}
+  %$endif$
   \vskip 2em
   \noindent {\Large \textsf{$for(author)$$author$$sep$, $endfor$}}
   \vfill
