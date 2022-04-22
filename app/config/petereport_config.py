@@ -39,8 +39,8 @@ PETEREPORT_TEMPLATES = {
 }
 
 PETEREPORT_MARKDOWN = {
-	'author': 'Pentest company',
-	'subject': 'Pentest Report',
-	'website': 'https://github.com/1modm/petereport',
+	'author': 'Alter Solutions Deutschland',
+	'subject': 'Ergebnisbericht IT-Sicherheitscheck KMU',
+	'website': 'https://www.alter-solutions.de',
 	'martor_upload_method': 'BASE64' # BASE64 (stored in DB) or MEDIA (path not protected)
 }
