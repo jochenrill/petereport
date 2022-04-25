@@ -624,10 +624,11 @@ $endif$
 %
 % heading color
 %
-\definecolor{heading-color}{RGB}{40,40,40}
+\definecolor{heading-color}{RGB}{215,50,47}
 $if(beamer)$
 $else$
 \addtokomafont{section}{\color{heading-color}}
+\addtokomafont{subsection}{\color{heading-color}}
 $endif$
 % When using the classes report, scrreprt, book,
 % scrbook or memoir, uncomment the following line.
