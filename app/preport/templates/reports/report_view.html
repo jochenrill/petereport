@@ -817,7 +817,35 @@
             },
             xAxis: {
                 type: 'category',
-                data: ["Critical","High","Medium","Low","Info"]
+                data: [{
+                  value: "Critical",
+                  textStyle: {
+                    fontSize:40
+                  }
+                 },{
+                  value: "High",
+                  textStyle: {
+                    fontSize:40
+                  }
+                 }, {
+                  value: "Medium",
+                  textStyle: {
+                    fontSize:40
+                  }
+                 } , {
+                  value: "Low",
+                  textStyle: {
+                    fontSize:40
+                  }
+                 }, {
+                  value: "Info",
+                  textStyle: {
+                    fontSize:40
+                  }
+                 }],
+              
+                
+                
             },
             yAxis: {
               type: 'value',
@@ -921,8 +949,8 @@
   function SaveSummaryImage(doc_type) {
 
         var imgSeveritybar = new Image();
-        imgSeveritybar.src = chartSeveritybar.getConnectedDataURL({
-            pixelRatio: 2,
+        imgSeveritybar.src = chartSeveritybar.getDataURL({
+            pixelRatio: 1,
             backgroundColor: '#fff'
         });
 
