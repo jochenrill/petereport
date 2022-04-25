@@ -25,22 +25,23 @@ PETEREPORT_TEMPLATES = {
 	'storage_reports': 'storage_reports',
 	'html_template': 'bootstrap-4-pandoc-template/template.html',
 	'pdf_latex_template': 'petereport.latex',
-	'report_id_format': 'PEN-DOC-',
+	'report_id_format': 'ASD-KMU-',
 	'report_csv_name': 'PEN-CSV',
 	'report_markdown_name': 'PEN-MD',
-	'report_html_name': 'PEN-HTML',
-	'report_pdf_name': 'PEN-PDF',
+	'report_html_name': 'ASD-KMU-HTML',
+	'report_pdf_name': 'ASD-KMU-PDF',
 	'report_jupyter_name': 'PEN-JUPYTER',
 	'initial_text': 'TBC',
-	'titlepage-color': "1E90FF",
-	'titlepage-text-color': "FFFAFA",
-	'titlepage-rule-color': "FFFAFA",
-	'titlepage-rule-height': 2
+	'titlepage-color': "FFFFFF",
+	'titlepage-text-color': "D7322f",
+	'titlepage-rule-color': "D7322f",
+	'titlepage-rule-height': 2,
+	'page-background': "asd.png"
 }
 
 PETEREPORT_MARKDOWN = {
 	'author': 'Alter Solutions Deutschland',
-	'subject': 'Ergebnisbericht IT-Sicherheitscheck KMU',
+	'subject': 'Ergebnisbericht IT-Sicherheitsanalyse KMU',
 	'website': 'https://www.alter-solutions.de',
 	'martor_upload_method': 'BASE64' # BASE64 (stored in DB) or MEDIA (path not protected)
 }
