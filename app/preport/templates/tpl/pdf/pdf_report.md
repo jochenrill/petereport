@@ -24,9 +24,8 @@
 
 ## Zusammenfassung der identifizierten Schwachstellen
 
-![Zusammenfassung]({{report_executive_summary_image}})
+![Übersicht über die Schwere der identifizierten Schwachstellen]({{report_executive_summary_image}})
 
-![Aufteilung nach Kategorien]({{report_executive_categories_image}})
 
 {{pdf_finding_summary}}
 

@@ -3,13 +3,10 @@
 
 ::: {{icon_finding}}
 **Schwere:** {{severity_color_finding}}
-
+{% if finding.cvss_base_score != "0" %}
 **CVSS Score:** {{finding.cvss_base_score}}
+{% endif %}
 :::
-
-**CWE**
-
-{{finding.cwe.cwe_id}} - {{finding.cwe.cwe_name|safe}}
 
 **Beschreibung**
 
