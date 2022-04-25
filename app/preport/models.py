@@ -46,10 +46,10 @@ class DB_Finding(models.Model):
 	cvss_base_score = models.CharField(blank=True, max_length=200)
 	cvss_score = models.DecimalField(max_digits=3, decimal_places=1, default=0)
 	description = MartorField()
-	location = MartorField()
+	location = MartorField(blank=True)
 	impact = MartorField()
 	recommendation = MartorField()
-	references = MartorField()
+	references = MartorField(blank=True)
 	cwe = models.ForeignKey(DB_CWE, on_delete=models.CASCADE)
 
 # ---------- Finding templates ------------
