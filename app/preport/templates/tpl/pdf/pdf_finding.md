@@ -2,7 +2,7 @@
 ## {{finding.title|safe}}
 
 ::: {{icon_finding}}
-**Severity:** {{severity_color_finding}}
+**Schwere:** {{severity_color_finding}}
 
 **CVSS Score:** {{finding.cvss_base_score}}
 :::
@@ -11,25 +11,31 @@
 
 {{finding.cwe.cwe_id}} - {{finding.cwe.cwe_name|safe}}
 
-**Description**
+**Beschreibung**
 
 {{finding.description|safe}}
 
-**Location**
+{% if finding.location %}
+**Ort**
 
 {{finding.location|safe}}
 
-**Impact**
+{% endif %}
+
+**Auswirkung**
 
 {{finding.impact|safe}}
 
-**Recommendation**
+**Empfehlung**
 
 {{finding.recommendation|safe}}
 
-**References**
+{% if finding.references %}
+**Referenzen**
 
 {{finding.references|safe}}
+
+{% endif %}
 
 {% if template_appendix_in_finding %}
 {{template_appendix_in_finding|safe}}

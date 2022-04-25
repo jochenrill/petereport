@@ -5,16 +5,18 @@ author: ["{{md_author}}", "{{md_website}}"]
 date: "{{report_date}}"
 subject: "{{md_subject}}"
 subtitle: "{{DB_report_query.report_id}}"
-lang: "en"
+lang: "de"
 titlepage: true
 titlepage-color: "{{titlepagecolor}}"
 titlepage-text-color: "{{titlepagetextcolor}}"
 titlepage-rule-color: "{{titlerulecolor}}"
 titlepage-rule-height: "{{titlepageruleheight}}"
 book: false
+page-background: "{{pagebackground}}"
 toc-own-page: true
 code-block-font-size: \scriptsize
 colorlinks: true
+page-background-opacity: 0.8
 
 pandoc-latex-environment:
     noteblock: [note]

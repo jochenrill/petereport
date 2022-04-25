@@ -4,10 +4,23 @@
 
 {{DB_report_query.product.description}}
 
+## Methodik
+
+{{DB_report_query.methodology}}
+
+## Scope
+
+{{DB_report_query.scope}}
+
 \pagebreak
 # Managementzusammenfassung
 
 {{DB_report_query.executive_summary}}
+
+
+## Empfehlungen
+
+{{DB_report_query.recommendation}}
 
 ## Zusammenfassung der identifizierten Schwachstellen
 
@@ -17,28 +30,17 @@
 
 {{pdf_finding_summary}}
 
-## Scope
+\pagebreak
 
-### In Scope
-
-{{DB_report_query.scope}}
-
-### Out of Scope
+# Reifegrad der IT-Sicherheitsorganisation
 
 {{DB_report_query.outofscope}}
 
 \pagebreak
-## Methodik
 
-{{DB_report_query.methodology}}
 
-\pagebreak
-## Empfehlungen
 
-{{DB_report_query.recommendation}}
-
-\pagebreak
-# Findings
+# Details der gefundenen Schwachstellen
 
 {{template_findings}}
 
