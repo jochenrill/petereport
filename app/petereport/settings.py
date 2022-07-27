@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = DJANGO_CONFIG['secret_key']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = DJANGO_CONFIG['debug']
+DEBUG = True
 
 ADMIN_ENABLED = DJANGO_CONFIG['admin_module']
 

@@ -820,27 +820,27 @@
                 data: [{
                   value: "Critical",
                   textStyle: {
-                    fontSize:40
+                    fontSize:30
                   }
                  },{
                   value: "High",
                   textStyle: {
-                    fontSize:40
+                    fontSize:30
                   }
                  }, {
                   value: "Medium",
                   textStyle: {
-                    fontSize:40
+                    fontSize:30
                   }
                  } , {
                   value: "Low",
                   textStyle: {
-                    fontSize:40
+                    fontSize:30
                   }
                  }, {
                   value: "Info",
                   textStyle: {
-                    fontSize:40
+                    fontSize:30
                   }
                  }],
               
@@ -850,6 +850,9 @@
             yAxis: {
               type: 'value',
               interval: 1,
+              axisLabel:{
+               fontSize: 30
+              }
             },
 
             series: [{
@@ -867,6 +870,9 @@
                 {
                     value: {{count_findings_critical}},
                     itemStyle: {color: '#cc0000'},
+                    textStyle:{
+                      fontSize:30
+                    } 
                 },
                 {
                     value: {{count_findings_high}},

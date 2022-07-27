@@ -10,7 +10,7 @@
 
 **Beschreibung**
 
-{{finding.description|safe}}
+{{finding.description | safe}}
 
 {% if finding.location %}
 **Ort**
