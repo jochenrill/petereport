@@ -1,14 +1,5 @@
 # Projektüberblick
 
-## Beschreibung
-
-{{DB_report_query.product.description}}
-
-## Methodik
-
-{{DB_report_query.methodology}}
-
-## Scope
 
 {{DB_report_query.scope}}
 
@@ -30,13 +21,6 @@
 {{pdf_finding_summary}}
 
 \pagebreak
-
-# Reifegrad der IT-Sicherheitsorganisation
-
-{{DB_report_query.outofscope}}
-
-\pagebreak
-
 
 
 # Details der gefundenen Schwachstellen
